@@ -1,4 +1,3 @@
-### Made by Team : Tech Tribe CGC-CSE 
 import tkinter as tk
 from tkinter import ttk
 from googletrans import Translator
@@ -21,7 +20,7 @@ class TechTribeTranslator:
         self.translated_label = ttk.Label(root, text="", font=("Helvetica", 14), wraplength=400)
         self.translated_label.pack()
         
-        self.made_by_label = ttk.Label(root, text="Made by; Technology", font=("Helvetica", 10), foreground="#888888")
+        self.made_by_label = ttk.Label(root, text="Made by: Mayank Aggarwal CGC-CSE", font=("Helvetica", 10), foreground="#888888")
         self.made_by_label.pack(pady=10, side=tk.BOTTOM)
 
     def translate(self):
@@ -40,3 +39,8 @@ if __name__ == "__main__":
     app = TechTribeTranslator(root)
     root.geometry("500x400")
     root.mainloop()
+
+# Updatde Google Translate Library if error  (AttributeError: 'NoneType' object has no attribute 'group') shows on screen 
+# by going to cmd and typing command (pip install --upgrade googletrans==4.0.0-rc1)
+
+# Made by Mayank Aggarwal
