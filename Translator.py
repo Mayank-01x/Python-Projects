@@ -1,3 +1,5 @@
+#Translated English To Hindi
+
 import tkinter as tk
 from tkinter import ttk
 from googletrans import Translator
