@@ -1,4 +1,4 @@
-#Translated English To Hindi
+#Translates English To Hindi
 
 import tkinter as tk
 from tkinter import ttk
