@@ -9,4 +9,5 @@ print("The Division-Rounded Off to Nearest Integer of", (a) ,"÷" ,(b) ,"is", in
 print("The Subtraction of", (a) ,"-" ,(b) ,"is", int(a)-int(b))
 print("The Exponential of", (a) ,"^" ,(b) ,"is", int(a)**int(b))
 print("The Average of These Two Numbers is : " , (int(a) + int(b))/2)
-print("Made By-","\"Mayank Aggarwal\"")
+
+# Made By- \Mayank Aggarwal\
