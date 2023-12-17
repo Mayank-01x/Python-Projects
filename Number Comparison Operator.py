@@ -8,4 +8,4 @@ print(int(a)>int(b))
 print("Is Second Number Greater than First ?")
 print(int(a)<int(b))
 
-print("Made By - \"Mayank Aggarwal\"")
+# Made By - \Mayank Aggarwal\
